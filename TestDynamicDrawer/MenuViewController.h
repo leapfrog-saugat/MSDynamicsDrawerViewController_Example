@@ -13,14 +13,7 @@
 typedef NS_ENUM(NSUInteger, MSPaneViewControllerType) {
     MSPaneViewControllerTypeHome,
     MSPaneViewControllerTypeGreen,
-    MSPaneViewControllerTypeRed,
-    MSPaneViewControllerTypeLogin,
-    MSPaneViewControllerTypeControls,
-    MSPaneViewControllerTypeMap,
-    MSPaneViewControllerTypeEditableTable,
-    MSPaneViewControllerTypeLongTable,
-    MSPaneViewControllerTypeMonospace,
-    MSPaneViewControllerTypeCount
+    MSPaneViewControllerTypeRed
 };
 
 @interface MenuViewController : UIViewController
@@ -31,6 +24,7 @@ typedef NS_ENUM(NSUInteger, MSPaneViewControllerType) {
 - (void)initialize;
 - (IBAction)btnGreenScreenVC:(id)sender;
 - (IBAction)btnRedScreenVC:(id)sender;
+- (IBAction)btnHomeScreenVC:(id)sender;
 - (void)transitionToViewController:(MSPaneViewControllerType)paneViewControllerType;
 
 @end

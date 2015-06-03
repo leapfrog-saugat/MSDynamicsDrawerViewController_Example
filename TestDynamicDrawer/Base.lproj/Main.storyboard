@@ -54,24 +54,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="whK-JT-Kq9">
-                                <rect key="frame" x="267" y="256" width="53" height="30"/>
-                                <state key="normal" title="Red VC">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="btnRedScreen:" destination="erj-4w-SO7" eventType="touchUpInside" id="lgf-VX-Pv9"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hmI-rH-mTs">
-                                <rect key="frame" x="267" y="313" width="66" height="30"/>
-                                <state key="normal" title="Green VC">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="btnGreenScreen:" destination="erj-4w-SO7" eventType="touchUpInside" id="sbG-Wh-93p"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home Screen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N0I-Wd-FQk">
                                 <rect key="frame" x="248" y="99" width="105" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -81,12 +63,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="N0I-Wd-FQk" firstAttribute="centerX" secondItem="hmI-rH-mTs" secondAttribute="centerX" id="5Du-ao-yzd"/>
-                            <constraint firstItem="whK-JT-Kq9" firstAttribute="top" secondItem="UZn-5V-N08" secondAttribute="bottom" constant="192" id="6ru-M3-HeA"/>
-                            <constraint firstItem="whK-JT-Kq9" firstAttribute="leading" secondItem="hmI-rH-mTs" secondAttribute="leading" id="8gH-fa-xsH"/>
                             <constraint firstItem="N0I-Wd-FQk" firstAttribute="top" secondItem="UZn-5V-N08" secondAttribute="bottom" constant="79" id="LO2-Gb-FaH"/>
-                            <constraint firstItem="hmI-rH-mTs" firstAttribute="centerX" secondItem="WLy-Gt-LoP" secondAttribute="centerX" id="cNh-9T-Yxk"/>
-                            <constraint firstItem="hmI-rH-mTs" firstAttribute="top" secondItem="whK-JT-Kq9" secondAttribute="bottom" constant="27" id="o4V-xf-2p7"/>
+                            <constraint firstItem="N0I-Wd-FQk" firstAttribute="centerX" secondItem="WLy-Gt-LoP" secondAttribute="centerX" id="gVQ-8C-QuP"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Gxb-1K-xH5"/>
@@ -97,7 +75,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zgO-MZ-rEc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2409" y="68"/>
+            <point key="canvasLocation" x="2317" y="36"/>
         </scene>
         <!--Menu View Controller-->
         <scene sceneID="rEc-pN-jMt">
@@ -129,13 +107,24 @@
                                     <action selector="btnGreenScreenVC:" destination="kuJ-Y2-e9a" eventType="touchUpInside" id="E6S-H4-jbu"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KTE-hZ-L8Z">
+                                <rect key="frame" x="16" y="131" width="66" height="30"/>
+                                <state key="normal" title="Home VC">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnHomeScreenVC:" destination="kuJ-Y2-e9a" eventType="touchUpInside" id="kov-cJ-Ege"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="K0D-s2-gof" firstAttribute="top" secondItem="l9l-gU-Hpu" secondAttribute="bottom" constant="8" id="CEw-vo-pkK"/>
                             <constraint firstItem="l9l-gU-Hpu" firstAttribute="top" secondItem="Qx0-o9-LjQ" secondAttribute="bottom" constant="35" id="Mad-UI-uSo"/>
+                            <constraint firstItem="KTE-hZ-L8Z" firstAttribute="leading" secondItem="K0D-s2-gof" secondAttribute="leading" id="f34-bg-OhU"/>
                             <constraint firstItem="l9l-gU-Hpu" firstAttribute="leading" secondItem="ofd-Tm-fSt" secondAttribute="leadingMargin" id="gmu-T3-q8T"/>
                             <constraint firstItem="K0D-s2-gof" firstAttribute="leading" secondItem="ofd-Tm-fSt" secondAttribute="leadingMargin" id="miG-Me-3vL"/>
+                            <constraint firstItem="KTE-hZ-L8Z" firstAttribute="top" secondItem="K0D-s2-gof" secondAttribute="bottom" constant="8" symbolic="YES" id="zoJ-yd-Ho1"/>
                         </constraints>
                     </view>
                 </viewController>

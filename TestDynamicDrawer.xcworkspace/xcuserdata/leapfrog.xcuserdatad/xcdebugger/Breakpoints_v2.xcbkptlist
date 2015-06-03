@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestDynamicDrawer/MenuViewController.m"
-            timestampString = "455000896.888183"
+            timestampString = "455015545.3583"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "144"
-            endingLineNumber = "144"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
             landmarkName = "-btnRedScreenVC:"
             landmarkType = "5">
          </BreakpointContent>

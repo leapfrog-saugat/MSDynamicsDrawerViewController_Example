@@ -36,11 +36,4 @@
 }
 */
 
-- (IBAction)btnRedScreen:(id)sender {
-    [self performSegueWithIdentifier:@"HomeToRedVC" sender:sender];
-}
-
-- (IBAction)btnGreenScreen:(id)sender {
-    [self performSegueWithIdentifier:@"HomeToGreenVC" sender:sender];
-}
 @end

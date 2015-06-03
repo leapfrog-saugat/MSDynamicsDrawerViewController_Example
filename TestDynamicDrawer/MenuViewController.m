@@ -32,25 +32,13 @@
     self.paneViewControllerTitles = @{
                                       @(MSPaneViewControllerTypeHome) : @"HomeScreenVC",
                                       @(MSPaneViewControllerTypeGreen) : @"GreenScreenVC",
-                                      @(MSPaneViewControllerTypeRed) : @"RedScreenVC",
-                                      @(MSPaneViewControllerTypeLogin) : @"LoginVC",
-                                      @(MSPaneViewControllerTypeControls) : @"Controls",
-                                      @(MSPaneViewControllerTypeMap) : @"Map",
-                                      @(MSPaneViewControllerTypeEditableTable) : @"Editable Table",
-                                      @(MSPaneViewControllerTypeLongTable) : @"Long Table",
-                                      @(MSPaneViewControllerTypeMonospace) : @"Monospace Ltd."
+                                      @(MSPaneViewControllerTypeRed) : @"RedScreenVC"
                                       };
     
     self.paneViewControllerIdentifiers = @{
                                            @(MSPaneViewControllerTypeHome) : @"HomeScreenVC",
                                            @(MSPaneViewControllerTypeGreen) : @"GreenScreenVC",
-                                           @(MSPaneViewControllerTypeRed) : @"RedScreenVC",
-                                           @(MSPaneViewControllerTypeLogin) : @"LoginVC",
-                                           @(MSPaneViewControllerTypeControls) : @"Controls",
-                                           @(MSPaneViewControllerTypeMap) : @"Map",
-                                           @(MSPaneViewControllerTypeEditableTable) : @"Editable Table",
-                                           @(MSPaneViewControllerTypeLongTable) : @"Long Table",
-                                           @(MSPaneViewControllerTypeMonospace) : @"Monospace"
+                                           @(MSPaneViewControllerTypeRed) : @"RedScreenVC"
                                            };
 
 }
@@ -142,5 +130,9 @@
 
 - (IBAction)btnRedScreenVC:(id)sender {
     [self transitionToViewController:MSPaneViewControllerTypeRed];
+}
+
+- (IBAction)btnHomeScreenVC:(id)sender {
+    [self transitionToViewController:MSPaneViewControllerTypeHome];
 }
 @end

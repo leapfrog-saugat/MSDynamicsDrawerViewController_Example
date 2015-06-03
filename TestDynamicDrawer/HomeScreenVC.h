@@ -9,7 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface HomeScreenVC : UIViewController
-- (IBAction)btnRedScreen:(id)sender;
-- (IBAction)btnGreenScreen:(id)sender;
 
 @end

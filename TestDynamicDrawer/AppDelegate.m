@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  TestDynamicDrawer
+//  MSDynamicsDrawerViewController_Example
 //
 //  Created by Saugat Gautam on 6/1/15.
 //  Copyright (c) 2015 Saugat Gautam. All rights reserved.

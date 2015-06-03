@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CD9C2DAC1B1C0AFC0026D72D"
-               BuildableName = "TestDynamicDrawer.app"
-               BlueprintName = "TestDynamicDrawer"
-               ReferencedContainer = "container:TestDynamicDrawer.xcodeproj">
+               BuildableName = "MSDynamicsDrawerViewController_Example.app"
+               BlueprintName = "MSDynamicsDrawerViewController_Example"
+               ReferencedContainer = "container:MSDynamicsDrawerViewController_Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CD9C2DC51B1C0AFC0026D72D"
-               BuildableName = "TestDynamicDrawerTests.xctest"
-               BlueprintName = "TestDynamicDrawerTests"
-               ReferencedContainer = "container:TestDynamicDrawer.xcodeproj">
+               BuildableName = "MSDynamicsDrawerViewController_ExampleTests.xctest"
+               BlueprintName = "MSDynamicsDrawerViewController_ExampleTests"
+               ReferencedContainer = "container:MSDynamicsDrawerViewController_Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CD9C2DC51B1C0AFC0026D72D"
-               BuildableName = "TestDynamicDrawerTests.xctest"
-               BlueprintName = "TestDynamicDrawerTests"
-               ReferencedContainer = "container:TestDynamicDrawer.xcodeproj">
+               BuildableName = "MSDynamicsDrawerViewController_ExampleTests.xctest"
+               BlueprintName = "MSDynamicsDrawerViewController_ExampleTests"
+               ReferencedContainer = "container:MSDynamicsDrawerViewController_Example.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CD9C2DAC1B1C0AFC0026D72D"
-            BuildableName = "TestDynamicDrawer.app"
-            BlueprintName = "TestDynamicDrawer"
-            ReferencedContainer = "container:TestDynamicDrawer.xcodeproj">
+            BuildableName = "MSDynamicsDrawerViewController_Example.app"
+            BlueprintName = "MSDynamicsDrawerViewController_Example"
+            ReferencedContainer = "container:MSDynamicsDrawerViewController_Example.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CD9C2DAC1B1C0AFC0026D72D"
-            BuildableName = "TestDynamicDrawer.app"
-            BlueprintName = "TestDynamicDrawer"
-            ReferencedContainer = "container:TestDynamicDrawer.xcodeproj">
+            BuildableName = "MSDynamicsDrawerViewController_Example.app"
+            BlueprintName = "MSDynamicsDrawerViewController_Example"
+            ReferencedContainer = "container:MSDynamicsDrawerViewController_Example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CD9C2DAC1B1C0AFC0026D72D"
-            BuildableName = "TestDynamicDrawer.app"
-            BlueprintName = "TestDynamicDrawer"
-            ReferencedContainer = "container:TestDynamicDrawer.xcodeproj">
+            BuildableName = "MSDynamicsDrawerViewController_Example.app"
+            BlueprintName = "MSDynamicsDrawerViewController_Example"
+            ReferencedContainer = "container:MSDynamicsDrawerViewController_Example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

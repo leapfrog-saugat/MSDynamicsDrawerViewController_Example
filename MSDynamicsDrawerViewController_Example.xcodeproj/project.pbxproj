@@ -37,14 +37,14 @@
 		C1D312EF6935D90320F0ED13 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		CD402FD41B1C13A9006FF62E /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		CD402FD51B1C13A9006FF62E /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
-		CD9C2DAD1B1C0AFC0026D72D /* TestDynamicDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDynamicDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9C2DAD1B1C0AFC0026D72D /* MSDynamicsDrawerViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSDynamicsDrawerViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9C2DB11B1C0AFC0026D72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD9C2DB21B1C0AFC0026D72D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD9C2DB41B1C0AFC0026D72D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD9C2DB51B1C0AFC0026D72D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CD9C2DBD1B1C0AFC0026D72D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CD9C2DC01B1C0AFC0026D72D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		CD9C2DC61B1C0AFC0026D72D /* TestDynamicDrawerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDynamicDrawerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9C2DC61B1C0AFC0026D72D /* MSDynamicsDrawerViewController_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSDynamicsDrawerViewController_ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9C2DCB1B1C0AFC0026D72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD9C2DCC1B1C0AFC0026D72D /* TestDynamicDrawerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDynamicDrawerTests.m; sourceTree = "<group>"; };
 		CDEC98591B1DB81A004C4EA9 /* LoginScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginScreenVC.h; sourceTree = "<group>"; };
@@ -109,8 +109,8 @@
 		CD9C2DA41B1C0AFC0026D72D = {
 			isa = PBXGroup;
 			children = (
-				CD9C2DAF1B1C0AFC0026D72D /* TestDynamicDrawer */,
-				CD9C2DC91B1C0AFC0026D72D /* TestDynamicDrawerTests */,
+				CD9C2DAF1B1C0AFC0026D72D /* MSDynamicsDrawerViewController_Example */,
+				CD9C2DC91B1C0AFC0026D72D /* MSDynamicsDrawerViewController_ExampleTests */,
 				CD9C2DAE1B1C0AFC0026D72D /* Products */,
 				AA6463DDE67400F56F113172 /* Pods */,
 				1571E2123D76E35A5867A331 /* Frameworks */,
@@ -120,13 +120,13 @@
 		CD9C2DAE1B1C0AFC0026D72D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD9C2DAD1B1C0AFC0026D72D /* TestDynamicDrawer.app */,
-				CD9C2DC61B1C0AFC0026D72D /* TestDynamicDrawerTests.xctest */,
+				CD9C2DAD1B1C0AFC0026D72D /* MSDynamicsDrawerViewController_Example.app */,
+				CD9C2DC61B1C0AFC0026D72D /* MSDynamicsDrawerViewController_ExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CD9C2DAF1B1C0AFC0026D72D /* TestDynamicDrawer */ = {
+		CD9C2DAF1B1C0AFC0026D72D /* MSDynamicsDrawerViewController_Example */ = {
 			isa = PBXGroup;
 			children = (
 				CDEC986B1B1DD0AC004C4EA9 /* DynamicsDrawerContainerVC */,
@@ -141,6 +141,7 @@
 				CD9C2DBF1B1C0AFC0026D72D /* LaunchScreen.xib */,
 				CD9C2DB01B1C0AFC0026D72D /* Supporting Files */,
 			);
+			name = MSDynamicsDrawerViewController_Example;
 			path = TestDynamicDrawer;
 			sourceTree = "<group>";
 		};
@@ -153,12 +154,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CD9C2DC91B1C0AFC0026D72D /* TestDynamicDrawerTests */ = {
+		CD9C2DC91B1C0AFC0026D72D /* MSDynamicsDrawerViewController_ExampleTests */ = {
 			isa = PBXGroup;
 			children = (
 				CD9C2DCC1B1C0AFC0026D72D /* TestDynamicDrawerTests.m */,
 				CD9C2DCA1B1C0AFC0026D72D /* Supporting Files */,
 			);
+			name = MSDynamicsDrawerViewController_ExampleTests;
 			path = TestDynamicDrawerTests;
 			sourceTree = "<group>";
 		};
@@ -219,9 +221,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CD9C2DAC1B1C0AFC0026D72D /* TestDynamicDrawer */ = {
+		CD9C2DAC1B1C0AFC0026D72D /* MSDynamicsDrawerViewController_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD9C2DD01B1C0AFC0026D72D /* Build configuration list for PBXNativeTarget "TestDynamicDrawer" */;
+			buildConfigurationList = CD9C2DD01B1C0AFC0026D72D /* Build configuration list for PBXNativeTarget "MSDynamicsDrawerViewController_Example" */;
 			buildPhases = (
 				A980E54B9B48F56448EE04E3 /* Check Pods Manifest.lock */,
 				CD9C2DA91B1C0AFC0026D72D /* Sources */,
@@ -233,14 +235,14 @@
 			);
 			dependencies = (
 			);
-			name = TestDynamicDrawer;
+			name = MSDynamicsDrawerViewController_Example;
 			productName = TestDynamicDrawer;
-			productReference = CD9C2DAD1B1C0AFC0026D72D /* TestDynamicDrawer.app */;
+			productReference = CD9C2DAD1B1C0AFC0026D72D /* MSDynamicsDrawerViewController_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CD9C2DC51B1C0AFC0026D72D /* TestDynamicDrawerTests */ = {
+		CD9C2DC51B1C0AFC0026D72D /* MSDynamicsDrawerViewController_ExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD9C2DD31B1C0AFC0026D72D /* Build configuration list for PBXNativeTarget "TestDynamicDrawerTests" */;
+			buildConfigurationList = CD9C2DD31B1C0AFC0026D72D /* Build configuration list for PBXNativeTarget "MSDynamicsDrawerViewController_ExampleTests" */;
 			buildPhases = (
 				CD9C2DC21B1C0AFC0026D72D /* Sources */,
 				CD9C2DC31B1C0AFC0026D72D /* Frameworks */,
@@ -251,9 +253,9 @@
 			dependencies = (
 				CD9C2DC81B1C0AFC0026D72D /* PBXTargetDependency */,
 			);
-			name = TestDynamicDrawerTests;
+			name = MSDynamicsDrawerViewController_ExampleTests;
 			productName = TestDynamicDrawerTests;
-			productReference = CD9C2DC61B1C0AFC0026D72D /* TestDynamicDrawerTests.xctest */;
+			productReference = CD9C2DC61B1C0AFC0026D72D /* MSDynamicsDrawerViewController_ExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -275,7 +277,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CD9C2DA81B1C0AFC0026D72D /* Build configuration list for PBXProject "TestDynamicDrawer" */;
+			buildConfigurationList = CD9C2DA81B1C0AFC0026D72D /* Build configuration list for PBXProject "MSDynamicsDrawerViewController_Example" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -288,8 +290,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD9C2DAC1B1C0AFC0026D72D /* TestDynamicDrawer */,
-				CD9C2DC51B1C0AFC0026D72D /* TestDynamicDrawerTests */,
+				CD9C2DAC1B1C0AFC0026D72D /* MSDynamicsDrawerViewController_Example */,
+				CD9C2DC51B1C0AFC0026D72D /* MSDynamicsDrawerViewController_ExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -376,7 +378,7 @@
 /* Begin PBXTargetDependency section */
 		CD9C2DC81B1C0AFC0026D72D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CD9C2DAC1B1C0AFC0026D72D /* TestDynamicDrawer */;
+			target = CD9C2DAC1B1C0AFC0026D72D /* MSDynamicsDrawerViewController_Example */;
 			targetProxy = CD9C2DC71B1C0AFC0026D72D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -493,7 +495,7 @@
 				INFOPLIST_FILE = TestDynamicDrawer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MSDynamicsDrawerViewController_Example;
 			};
 			name = Debug;
 		};
@@ -506,7 +508,7 @@
 				INFOPLIST_FILE = TestDynamicDrawer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MSDynamicsDrawerViewController_Example;
 			};
 			name = Release;
 		};
@@ -524,7 +526,7 @@
 				);
 				INFOPLIST_FILE = TestDynamicDrawerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MSDynamicsDrawerViewController_ExampleTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestDynamicDrawer.app/TestDynamicDrawer";
 			};
 			name = Debug;
@@ -539,7 +541,7 @@
 				);
 				INFOPLIST_FILE = TestDynamicDrawerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MSDynamicsDrawerViewController_ExampleTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestDynamicDrawer.app/TestDynamicDrawer";
 			};
 			name = Release;
@@ -547,7 +549,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CD9C2DA81B1C0AFC0026D72D /* Build configuration list for PBXProject "TestDynamicDrawer" */ = {
+		CD9C2DA81B1C0AFC0026D72D /* Build configuration list for PBXProject "MSDynamicsDrawerViewController_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD9C2DCE1B1C0AFC0026D72D /* Debug */,
@@ -556,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD9C2DD01B1C0AFC0026D72D /* Build configuration list for PBXNativeTarget "TestDynamicDrawer" */ = {
+		CD9C2DD01B1C0AFC0026D72D /* Build configuration list for PBXNativeTarget "MSDynamicsDrawerViewController_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD9C2DD11B1C0AFC0026D72D /* Debug */,
@@ -565,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD9C2DD31B1C0AFC0026D72D /* Build configuration list for PBXNativeTarget "TestDynamicDrawerTests" */ = {
+		CD9C2DD31B1C0AFC0026D72D /* Build configuration list for PBXNativeTarget "MSDynamicsDrawerViewController_ExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD9C2DD41B1C0AFC0026D72D /* Debug */,

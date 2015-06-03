@@ -72,11 +72,19 @@
                                     <action selector="btnGreenScreen:" destination="erj-4w-SO7" eventType="touchUpInside" id="sbG-Wh-93p"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home Screen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N0I-Wd-FQk">
+                                <rect key="frame" x="248" y="99" width="105" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="N0I-Wd-FQk" firstAttribute="centerX" secondItem="hmI-rH-mTs" secondAttribute="centerX" id="5Du-ao-yzd"/>
                             <constraint firstItem="whK-JT-Kq9" firstAttribute="top" secondItem="UZn-5V-N08" secondAttribute="bottom" constant="192" id="6ru-M3-HeA"/>
                             <constraint firstItem="whK-JT-Kq9" firstAttribute="leading" secondItem="hmI-rH-mTs" secondAttribute="leading" id="8gH-fa-xsH"/>
+                            <constraint firstItem="N0I-Wd-FQk" firstAttribute="top" secondItem="UZn-5V-N08" secondAttribute="bottom" constant="79" id="LO2-Gb-FaH"/>
                             <constraint firstItem="hmI-rH-mTs" firstAttribute="centerX" secondItem="WLy-Gt-LoP" secondAttribute="centerX" id="cNh-9T-Yxk"/>
                             <constraint firstItem="hmI-rH-mTs" firstAttribute="top" secondItem="whK-JT-Kq9" secondAttribute="bottom" constant="27" id="o4V-xf-2p7"/>
                         </constraints>
